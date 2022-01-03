@@ -1,0 +1,38 @@
+.register-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#address,
+#type,
+input[type = "text"],
+input[type = "email"],
+input[type = "password"],
+input[type = "tel"],
+input[type = "date"],
+input[type = "file"] {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+#address {
+    min-height: 7em;
+}
+
+#type:disabled,
+#address:read-only,
+input[type = "text"]:read-only,
+input[type = "email"]:read-only,
+input[type = "password"]:read-only,
+input[type = "tel"]:read-only,
+input[type = "date"]:read-only,
+input[type = "file"]:read-only {
+    background-color: #f6f6f6;
+    color: rgb(0, 0, 0);
+}
+
+#previewImg {
+    max-height: 250px;
+}

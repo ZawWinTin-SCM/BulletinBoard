@@ -1,0 +1,47 @@
+.title-btn {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.title-btn:hover {
+    opacity: 0.6;
+}
+
+.title-btn:focus {
+    outline: none;
+}
+
+th, td { 
+    white-space: nowrap; 
+}
+
+.custom-search-list > * {
+    margin: 0 0.2em;
+}
+
+.custom-search-list > *:first-child {
+    margin-left: 0;
+}
+.custom-search-list > *:last-child {
+    margin-right: 0;
+}
+
+#searchName,
+#searchEmail,
+#fromDate,
+#toDate {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    min-height: 2.4em;
+}
+
+#user-profile {
+    max-width: 100%;
+}
+
+#userDeleteConfirmModal .modal-body .modal-title {
+    margin-bottom: 0.5em;
+}

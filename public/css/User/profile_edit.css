@@ -1,0 +1,25 @@
+#address,
+#type,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+#address {
+    min-height: 7em;
+}
+
+#old-profile {
+    max-height: 250px;
+}
+
+.label-required:after {
+    content: "*";
+    color: #ff0000;
+}
